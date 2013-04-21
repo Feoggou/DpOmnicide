@@ -1,6 +1,6 @@
 
-#include "quakedef.h"
-#include "r_shadow.h"
+#include "../quakedef.h"
+#include "shadow.h"
 
 extern cvar_t r_labelsprites_scale;
 extern cvar_t r_labelsprites_roundtopixels;

@@ -1,7 +1,7 @@
 
-#include "quakedef.h"
-#include "cdaudio.h"
-#include "image.h"
+#include "../quakedef.h"
+#include "../cdaudio.h"
+#include "../image.h"
 
 #ifdef SUPPORTD3D
 #include <d3d9.h>

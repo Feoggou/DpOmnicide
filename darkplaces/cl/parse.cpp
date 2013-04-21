@@ -19,14 +19,14 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 */
 // cl_parse.c  -- parse a message received from the server
 
-#include "quakedef.h"
-#include "cdaudio.h"
-#include "cl_collision.h"
-#include "csprogs.h"
-#include "libcurl.h"
-#include "utf8lib.h"
-#include "menu.h"
-#include "cl_video.h"
+#include "../quakedef.h"
+#include "../cdaudio.h"
+#include "collision.h"
+#include "../csprogs.h"
+#include "../libcurl.h"
+#include "../utf8lib.h"
+#include "../menu.h"
+#include "video.h"
 
 const char *svc_strings[128] =
 {

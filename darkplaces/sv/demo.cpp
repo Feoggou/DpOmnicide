@@ -1,5 +1,5 @@
-#include "quakedef.h"
-#include "sv_demo.h"
+#include "../quakedef.h"
+#include "demo.h"
 
 extern cvar_t sv_autodemo_perclient_discardable;
 

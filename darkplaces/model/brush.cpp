@@ -18,12 +18,12 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 
 */
 
-#include "quakedef.h"
-#include "image.h"
-#include "r_shadow.h"
-#include "polygon.h"
-#include "curves.h"
-#include "wad.h"
+#include "../quakedef.h"
+#include "../image.h"
+#include "../r/shadow.h"
+#include "../polygon.h"
+#include "../curves.h"
+#include "../wad.h"
 
 
 //cvar_t r_subdivide_size = {CVAR_SAVE, "r_subdivide_size", "128", "how large water polygons should be (smaller values produce more polygons which give better warping effects)"};

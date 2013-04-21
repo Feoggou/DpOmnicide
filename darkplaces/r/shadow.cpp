@@ -134,12 +134,12 @@ CubeMap, 2D+1D Attenuation Texturing, and Light Projection Filtering, as
 demonstrated by the game Doom3.
 */
 
-#include "quakedef.h"
-#include "r_shadow.h"
-#include "cl_collision.h"
-#include "portals.h"
-#include "image.h"
-#include "dpsoftrast.h"
+#include "../quakedef.h"
+#include "shadow.h"
+#include "../cl/collision.h"
+#include "../portals.h"
+#include "../image.h"
+#include "../dpsoftrast.h"
 
 #ifdef SUPPORTD3D
 #include <d3d9.h>

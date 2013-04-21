@@ -20,8 +20,8 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 // world.c -- world query functions
 
 #include "quakedef.h"
-#include "clvm_cmds.h"
-#include "cl_collision.h"
+#include "clvm/cmds.h"
+#include "cl/collision.h"
 
 /*
 

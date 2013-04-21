@@ -2,7 +2,7 @@
 #include "quakedef.h"
 #include "crypto.h"
 #include "common.h"
-#include "thread.h"
+#include "thread/thread.h"
 
 #include "hmac.h"
 #include "libcurl.h"

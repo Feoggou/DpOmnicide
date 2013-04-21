@@ -1,7 +1,7 @@
 #include "quakedef.h"
 
-#include "prvm_cmds.h"
-#include "clvm_cmds.h"
+#include "prvm/cmds.h"
+#include "clvm/cmds.h"
 #include "menu.h"
 #include "csprogs.h"
 

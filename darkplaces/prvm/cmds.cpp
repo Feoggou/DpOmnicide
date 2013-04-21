@@ -4,17 +4,17 @@
 // cause large (I think they will) parts are from pr_cmds the same copyright like in pr_cmds
 // also applies here
 
-#include "quakedef.h"
+#include "../quakedef.h"
 
-#include "prvm_cmds.h"
-#include "libcurl.h"
+#include "cmds.h"
+#include "../libcurl.h"
 #include <time.h>
 
-#include "cl_collision.h"
-#include "clvm_cmds.h"
-#include "csprogs.h"
-#include "ft2.h"
-#include "mdfour.h"
+#include "../cl/collision.h"
+#include "../clvm/cmds.h"
+#include "../csprogs.h"
+#include "../ft2.h"
+#include "../mdfour.h"
 
 extern cvar_t prvm_backtraceforwarnings;
 extern dllhandle_t ode_dll;

@@ -2,7 +2,7 @@
 #ifndef CL_VIDEO_H
 #define CL_VIDEO_H
 
-#include "cl_dyntexture.h"
+#include "dyntexture.h"
 
 // yields DYNAMIC_TEXTURE_PATH_PREFIX CLVIDEOPREFIX video name for a path
 #define CLVIDEOPREFIX	CLDYNTEXTUREPREFIX "video/"

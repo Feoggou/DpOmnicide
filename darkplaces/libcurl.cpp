@@ -1,7 +1,7 @@
 #include "quakedef.h"
 #include "fs.h"
 #include "libcurl.h"
-#include "thread.h"
+#include "thread/thread.h"
 
 static cvar_t cl_curl_maxdownloads = {CVAR_SAVE, "cl_curl_maxdownloads","1", "maximum number of concurrent HTTP/FTP downloads"};
 static cvar_t cl_curl_maxspeed = {CVAR_SAVE, "cl_curl_maxspeed","300", "maximum download speed (KiB/s)"};

@@ -1,4 +1,4 @@
-#include "mod_skeletal_animatevertices_sse.h"
+#include "skeletal_animatevertices_sse.h"
 
 #ifdef SSE_POSSIBLE
 

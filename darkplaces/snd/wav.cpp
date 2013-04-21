@@ -22,9 +22,9 @@
 */
 
 
-#include "quakedef.h"
-#include "snd_main.h"
-#include "snd_wav.h"
+#include "../quakedef.h"
+#include "main.h"
+#include "wav.h"
 
 
 typedef struct wavinfo_s

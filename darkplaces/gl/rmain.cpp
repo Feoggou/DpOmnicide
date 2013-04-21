@@ -19,15 +19,15 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 */
 // r_main.c
 
-#include "quakedef.h"
-#include "cl_dyntexture.h"
-#include "r_shadow.h"
-#include "polygon.h"
-#include "image.h"
-#include "ft2.h"
-#include "csprogs.h"
-#include "cl_video.h"
-#include "dpsoftrast.h"
+#include "../quakedef.h"
+#include "../cl/dyntexture.h"
+#include "../r/shadow.h"
+#include "../polygon.h"
+#include "../image.h"
+#include "../ft2.h"
+#include "../csprogs.h"
+#include "../cl/video.h"
+#include "../dpsoftrast.h"
 
 #ifdef SUPPORTD3D
 #include <d3d9.h>
@@ -618,13 +618,13 @@ static void R_BuildFogHeightTexture(void)
 
 static const char *builtinshaderstrings[] =
 {
-#include "shader_glsl.h"
+#include "../shader/glsl.h"
 0
 };
 
 const char *builtinhlslshaderstrings[] =
 {
-#include "shader_hlsl.h"
+#include "../shader/hlsl.h"
 0
 };
 

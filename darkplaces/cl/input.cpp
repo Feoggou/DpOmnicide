@@ -22,9 +22,9 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 // Quake is a trademark of Id Software, Inc., (c) 1996 Id Software, Inc. All
 // rights reserved.
 
-#include "quakedef.h"
-#include "csprogs.h"
-#include "thread.h"
+#include "../quakedef.h"
+#include "../csprogs.h"
+#include "../thread/thread.h"
 
 /*
 ===============================================================================
@@ -753,7 +753,7 @@ void CL_Input (void)
 	}
 }
 
-#include "cl_collision.h"
+#include "collision.h"
 
 static void CL_UpdatePrydonCursor(void)
 {

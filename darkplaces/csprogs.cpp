@@ -2,10 +2,10 @@
 #include "progsvm.h"
 #include "clprogdefs.h"
 #include "csprogs.h"
-#include "cl_collision.h"
-#include "snd_main.h"
-#include "clvm_cmds.h"
-#include "prvm_cmds.h"
+#include "cl/collision.h"
+#include "snd/main.h"
+#include "clvm/cmds.h"
+#include "prvm/cmds.h"
 
 //============================================================================
 // Client prog handling
@@ -77,7 +77,7 @@ prvm_required_field_t cl_reqfields[] =
 #define PRVM_DECLARE_field(x)
 #define PRVM_DECLARE_global(x)
 #define PRVM_DECLARE_function(x)
-#include "prvm_offsets.h"
+#include "prvm/offsets.h"
 #undef PRVM_DECLARE_serverglobalfloat
 #undef PRVM_DECLARE_serverglobalvector
 #undef PRVM_DECLARE_serverglobalstring
@@ -156,7 +156,7 @@ prvm_required_field_t cl_reqglobals[] =
 #define PRVM_DECLARE_field(x)
 #define PRVM_DECLARE_global(x)
 #define PRVM_DECLARE_function(x)
-#include "prvm_offsets.h"
+#include "prvm/offsets.h"
 #undef PRVM_DECLARE_serverglobalfloat
 #undef PRVM_DECLARE_serverglobalvector
 #undef PRVM_DECLARE_serverglobalstring

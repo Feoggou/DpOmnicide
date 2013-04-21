@@ -1,7 +1,7 @@
 
-#include "quakedef.h"
-#include "cl_dyntexture.h"
-#include "cl_video.h"
+#include "../quakedef.h"
+#include "dyntexture.h"
+#include "video.h"
 
 // cvars
 cvar_t cl_video_subtitles = {CVAR_SAVE, "cl_video_subtitles", "0", "show subtitles for videos (if they are present)"};
@@ -18,14 +18,14 @@ cvar_t cl_video_fadeout = {CVAR_SAVE, "cl_video_fadeout", "0", "fading-to-black 
 cvar_t v_glslgamma_video = {CVAR_SAVE, "v_glslgamma_video", "1", "applies GLSL gamma to played video, could be a fraction, requires r_glslgamma_2d 1."};
 
 // DPV stream decoder
-#include "dpvsimpledecode.h"
+#include "../dpvsimpledecode.h"
 
 // VorteX: libavcodec implementation
-#include "cl_video_libavw.cpp"
+#include "video_libavw.cpp"
 
 // JAM video decoder used by Blood Omnicide
 #ifdef JAMVIDEO
-#include "cl_video_jamdecode.c"
+#include "video_jamdecode.cpp"
 #endif
 
 // constants (and semi-constants)

@@ -3,7 +3,7 @@
 #include "image.h"
 #include "jpeg.h"
 #include "image_png.h"
-#include "r_shadow.h"
+#include "r/shadow.h"
 
 int		image_width;
 int		image_height;

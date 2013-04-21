@@ -1,7 +1,7 @@
 // Andreas Kirsch 07
 
-#include "quakedef.h"
-#include "cl_dyntexture.h"
+#include "../quakedef.h"
+#include "dyntexture.h"
 
 typedef struct dyntexture_s {
 	// everything after DYNAMIC_TEXTURE_PATH_PREFIX

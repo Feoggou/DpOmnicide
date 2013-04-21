@@ -1,6 +1,6 @@
 
-#include "quakedef.h"
-#include "image.h"
+#include "../quakedef.h"
+#include "../image.h"
 
 // FIXME: fix skybox after vid_restart
 cvar_t r_sky = {CVAR_SAVE, "r_sky", "1", "enables sky rendering (black otherwise)"};

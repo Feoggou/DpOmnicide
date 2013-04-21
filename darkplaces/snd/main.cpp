@@ -19,14 +19,14 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 */
 // snd_main.c -- main control for any streaming sound output device
 
-#include "quakedef.h"
+#include "../quakedef.h"
 
-#include "snd_main.h"
-#include "snd_ogg.h"
-#include "snd_modplug.h"
-#include "csprogs.h"
-#include "cl_collision.h"
-#include "cdaudio.h"
+#include "main.h"
+#include "ogg.h"
+#include "modplug.h"
+#include "../csprogs.h"
+#include "../cl/collision.h"
+#include "../cdaudio.h"
 
 
 #define SND_MIN_SPEED 8000

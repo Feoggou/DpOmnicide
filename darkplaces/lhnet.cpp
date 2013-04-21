@@ -45,7 +45,7 @@
 // for Z_Malloc/Z_Free in quake
 #ifndef STANDALONETEST
 #include "zone.h"
-#include "sys.h"
+#include "sys/sys.h"
 #include "netconn.h"
 #else
 #define Con_Print printf

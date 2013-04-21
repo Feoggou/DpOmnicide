@@ -4,7 +4,7 @@
 # endif
 #endif
 
-#include "quakedef.h"
+#include "../quakedef.h"
 
 #define SUPPORTDLL
 

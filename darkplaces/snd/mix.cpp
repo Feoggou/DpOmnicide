@@ -18,8 +18,8 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 
 */
 
-#include "quakedef.h"
-#include "snd_main.h"
+#include "../quakedef.h"
+#include "main.h"
 
 extern cvar_t snd_softclip;
 

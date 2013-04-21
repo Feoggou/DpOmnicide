@@ -1,7 +1,7 @@
-#include "quakedef.h"
+#include "../quakedef.h"
 
-#include "prvm_cmds.h"
-#include "jpeg.h"
+#include "../prvm/cmds.h"
+#include "../jpeg.h"
 
 //============================================================================
 // Server

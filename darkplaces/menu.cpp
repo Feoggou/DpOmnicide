@@ -5071,7 +5071,7 @@ static prvm_required_field_t m_required_fields[] =
 #define PRVM_DECLARE_field(x)
 #define PRVM_DECLARE_global(x)
 #define PRVM_DECLARE_function(x)
-#include "prvm_offsets.h"
+#include "prvm/offsets.h"
 #undef PRVM_DECLARE_serverglobalfloat
 #undef PRVM_DECLARE_serverglobalvector
 #undef PRVM_DECLARE_serverglobalstring
@@ -5150,7 +5150,7 @@ static prvm_required_field_t m_required_globals[] =
 #define PRVM_DECLARE_field(x)
 #define PRVM_DECLARE_global(x)
 #define PRVM_DECLARE_function(x)
-#include "prvm_offsets.h"
+#include "prvm/offsets.h"
 #undef PRVM_DECLARE_serverglobalfloat
 #undef PRVM_DECLARE_serverglobalvector
 #undef PRVM_DECLARE_serverglobalstring

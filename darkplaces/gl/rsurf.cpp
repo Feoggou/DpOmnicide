@@ -19,11 +19,11 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 */
 // r_surf.c: surface-related refresh code
 
-#include "quakedef.h"
-#include "r_shadow.h"
-#include "portals.h"
-#include "csprogs.h"
-#include "image.h"
+#include "../quakedef.h"
+#include "../r/shadow.h"
+#include "../portals.h"
+#include "../csprogs.h"
+#include "../image.h"
 
 cvar_t r_ambient = {0, "r_ambient", "0", "brightens map, value is 0-128"};
 cvar_t r_lockpvs = {0, "r_lockpvs", "0", "disables pvs switching, allows you to walk around and inspect what is visible from a given location in the map (anything not visible from your current location will not be drawn)"};

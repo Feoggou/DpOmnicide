@@ -18,12 +18,12 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 
 */
 
-#include "quakedef.h"
-#include "image.h"
-#include "r_shadow.h"
-#include "mod_skeletal_animatevertices_generic.h"
+#include "../quakedef.h"
+#include "../image.h"
+#include "../r/shadow.h"
+#include "../mod/skeletal_animatevertices_generic.h"
 #ifdef SSE_POSSIBLE
-#include "mod_skeletal_animatevertices_sse.h"
+#include "../mod/skeletal_animatevertices_sse.h"
 #endif
 
 #ifdef SSE_POSSIBLE

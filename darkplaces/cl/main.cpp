@@ -19,14 +19,14 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 */
 // cl_main.c  -- client main loop
 
-#include "quakedef.h"
-#include "cl_collision.h"
-#include "cl_video.h"
-#include "image.h"
-#include "csprogs.h"
-#include "r_shadow.h"
-#include "libcurl.h"
-#include "snd_main.h"
+#include "../quakedef.h"
+#include "collision.h"
+#include "video.h"
+#include "../image.h"
+#include "../csprogs.h"
+#include "../r/shadow.h"
+#include "../libcurl.h"
+#include "../snd/main.h"
 
 // we need to declare some mouse variables here, because the menu system
 // references them even when on a unix system.

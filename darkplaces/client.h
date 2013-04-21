@@ -23,7 +23,7 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #define CLIENT_H
 
 #include "matrixlib.h"
-#include "snd_main.h"
+#include "snd/main.h"
 
 // NOTE: r_stat_name[] must match this indexing
 typedef enum r_stat_e
@@ -1732,7 +1732,7 @@ void Debug_PolygonBegin(const char *picname, int flags);
 void Debug_PolygonVertex(float x, float y, float z, float s, float t, float r, float g, float b, float a);
 void Debug_PolygonEnd(void);
 
-#include "cl_screen.h"
+#include "cl/screen.h"
 
 extern qboolean sb_showscores;
 

@@ -16,7 +16,7 @@
 
 #include <SDL.h>
 
-#include "quakedef.h"
+#include "../quakedef.h"
 
 // =======================================================================
 // General routines

@@ -20,9 +20,9 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #include <SDL.h>
 #include <stdio.h>
 
-#include "quakedef.h"
-#include "image.h"
-#include "dpsoftrast.h"
+#include "../quakedef.h"
+#include "../image.h"
+#include "../dpsoftrast.h"
 
 #ifndef __IPHONEOS__
 #ifdef MACOSX
@@ -1714,7 +1714,7 @@ void VID_EnableJoystick(qboolean enable)
 #if SDL_MAJOR_VERSION == 1
 // set the icon (we dont use SDL here since it would be too much a PITA)
 #ifdef WIN32
-#include "resource.h"
+#include "../resource.h"
 #include <SDL_syswm.h>
 static SDL_Surface *VID_WrapSDL_SetVideoMode(int screenwidth, int screenheight, int screenbpp, int screenflags)
 {

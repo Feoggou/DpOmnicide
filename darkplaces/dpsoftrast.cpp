@@ -3,7 +3,7 @@
 #define _USE_MATH_DEFINES
 #include <math.h>
 #include "quakedef.h"
-#include "thread.h"
+#include "thread/thread.h"
 #include "dpsoftrast.h"
 
 #ifdef _MSC_VER

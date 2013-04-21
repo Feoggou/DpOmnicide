@@ -1,14 +1,14 @@
 
-#include "quakedef.h"
+#include "../quakedef.h"
 #ifdef SUPPORTD3D
 #include <d3d9.h>
 extern LPDIRECT3DDEVICE9 vid_d3d9dev;
 #endif
-#include "image.h"
-#include "jpeg.h"
-#include "image_png.h"
-#include "intoverflow.h"
-#include "dpsoftrast.h"
+#include "../image.h"
+#include "../jpeg.h"
+#include "../image_png.h"
+#include "../intoverflow.h"
+#include "../dpsoftrast.h"
 
 #ifndef GL_TEXTURE_3D
 #define GL_TEXTURE_3D				0x806F

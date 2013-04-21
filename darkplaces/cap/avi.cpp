@@ -1,5 +1,5 @@
-#include "quakedef.h"
-#include "cap_avi.h"
+#include "../quakedef.h"
+#include "avi.h"
 
 #define AVI_MASTER_INDEX_SIZE 640 // GB ought to be enough for anyone
 

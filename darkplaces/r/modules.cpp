@@ -1,5 +1,5 @@
 
-#include "quakedef.h"
+#include "../quakedef.h"
 
 #define MAXRENDERMODULES 20
 

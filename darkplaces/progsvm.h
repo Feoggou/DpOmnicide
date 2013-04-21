@@ -314,7 +314,7 @@ typedef struct prvm_prog_fieldoffsets_s
 #define PRVM_DECLARE_field(x) int x;
 #define PRVM_DECLARE_global(x)
 #define PRVM_DECLARE_function(x)
-#include "prvm_offsets.h"
+#include "prvm/offsets.h"
 #undef PRVM_DECLARE_serverglobalfloat
 #undef PRVM_DECLARE_serverglobalvector
 #undef PRVM_DECLARE_serverglobalstring
@@ -393,7 +393,7 @@ typedef struct prvm_prog_globaloffsets_s
 #define PRVM_DECLARE_field(x)
 #define PRVM_DECLARE_global(x) int x;
 #define PRVM_DECLARE_function(x)
-#include "prvm_offsets.h"
+#include "prvm/offsets.h"
 #undef PRVM_DECLARE_serverglobalfloat
 #undef PRVM_DECLARE_serverglobalvector
 #undef PRVM_DECLARE_serverglobalstring
@@ -472,7 +472,7 @@ typedef struct prvm_prog_funcoffsets_s
 #define PRVM_DECLARE_field(x)
 #define PRVM_DECLARE_global(x)
 #define PRVM_DECLARE_function(x) int x;
-#include "prvm_offsets.h"
+#include "prvm/offsets.h"
 #undef PRVM_DECLARE_serverglobalfloat
 #undef PRVM_DECLARE_serverglobalvector
 #undef PRVM_DECLARE_serverglobalstring

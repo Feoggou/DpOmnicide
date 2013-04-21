@@ -3,9 +3,9 @@
 #endif
 #include <sys/types.h>
 
-#include "quakedef.h"
-#include "client.h"
-#include "cap_ogg.h"
+#include "../quakedef.h"
+#include "../client.h"
+#include "ogg.h"
 
 // video capture cvars
 static cvar_t cl_capturevideo_ogg_theora_vp3compat = {CVAR_SAVE, "cl_capturevideo_ogg_theora_vp3compat", "1", "make VP3 compatible theora streams"};

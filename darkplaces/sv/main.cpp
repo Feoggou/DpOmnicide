@@ -19,11 +19,11 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 */
 // sv_main.c -- server main program
 
-#include "quakedef.h"
-#include "sv_demo.h"
-#include "libcurl.h"
-#include "csprogs.h"
-#include "thread.h"
+#include "../quakedef.h"
+#include "demo.h"
+#include "../libcurl.h"
+#include "../csprogs.h"
+#include "../thread/thread.h"
 
 static void SV_SaveEntFile_f(void);
 static void SV_StartDownload_f(void);
@@ -290,7 +290,7 @@ prvm_required_field_t sv_reqfields[] =
 #define PRVM_DECLARE_field(x)
 #define PRVM_DECLARE_global(x)
 #define PRVM_DECLARE_function(x)
-#include "prvm_offsets.h"
+#include "../prvm/offsets.h"
 #undef PRVM_DECLARE_serverglobalfloat
 #undef PRVM_DECLARE_serverglobalvector
 #undef PRVM_DECLARE_serverglobalstring
@@ -369,7 +369,7 @@ prvm_required_field_t sv_reqglobals[] =
 #define PRVM_DECLARE_field(x)
 #define PRVM_DECLARE_global(x)
 #define PRVM_DECLARE_function(x)
-#include "prvm_offsets.h"
+#include "../prvm/offsets.h"
 #undef PRVM_DECLARE_serverglobalfloat
 #undef PRVM_DECLARE_serverglobalvector
 #undef PRVM_DECLARE_serverglobalstring

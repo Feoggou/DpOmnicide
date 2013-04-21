@@ -1,11 +1,11 @@
-#include "quakedef.h"
+#include "../quakedef.h"
 
-#include "prvm_cmds.h"
-#include "csprogs.h"
-#include "cl_collision.h"
-#include "r_shadow.h"
-#include "jpeg.h"
-#include "image.h"
+#include "../prvm/cmds.h"
+#include "../csprogs.h"
+#include "../cl/collision.h"
+#include "../r/shadow.h"
+#include "../jpeg.h"
+#include "../image.h"
 
 //============================================================================
 // Client

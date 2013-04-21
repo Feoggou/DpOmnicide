@@ -19,9 +19,9 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 */
 // AK new vm
 
-#include "quakedef.h"
-#include "progsvm.h"
-#include "csprogs.h"
+#include "../quakedef.h"
+#include "../progsvm.h"
+#include "../csprogs.h"
 
 prvm_prog_t prvm_prog_list[PRVM_PROG_MAX];
 
@@ -1510,7 +1510,7 @@ static void PRVM_FindOffsets(prvm_prog_t *prog)
 #define PRVM_DECLARE_field(x) prog->fieldoffsets.x = PRVM_ED_FindFieldOffset(prog, #x);
 #define PRVM_DECLARE_global(x) prog->globaloffsets.x = PRVM_ED_FindGlobalOffset(prog, #x);
 #define PRVM_DECLARE_function(x) prog->funcoffsets.x = PRVM_ED_FindFunctionOffset(prog, #x);
-#include "prvm_offsets.h"
+#include "offsets.h"
 #undef PRVM_DECLARE_serverglobalfloat
 #undef PRVM_DECLARE_serverglobalvector
 #undef PRVM_DECLARE_serverglobalstring

@@ -191,13 +191,13 @@ float	getserverlistindexforkey(string key)
 		addwantedserverlistkey(string key)
 */
 
-#include "quakedef.h"
-#include "progdefs.h"
-#include "progsvm.h"
-#include "clprogdefs.h"
-#include "mprogdefs.h"
+#include "../quakedef.h"
+#include "../progdefs.h"
+#include "../progsvm.h"
+#include "../clprogdefs.h"
+#include "../mprogdefs.h"
 
-#include "cl_video.h"
+#include "../cl/video.h"
 
 //============================================================================
 // nice helper macros

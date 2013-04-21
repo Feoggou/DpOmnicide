@@ -22,10 +22,10 @@
 */
 
 
-#include "quakedef.h"
-#include "snd_main.h"
-#include "snd_ogg.h"
-#include "snd_wav.h"
+#include "../quakedef.h"
+#include "main.h"
+#include "ogg.h"
+#include "wav.h"
 
 #ifdef LINK_TO_LIBVORBIS
 #define OV_EXCLUDE_STATIC_CALLBACKS

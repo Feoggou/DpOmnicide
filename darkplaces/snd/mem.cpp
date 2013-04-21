@@ -19,12 +19,12 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 */
 
 
-#include "quakedef.h"
+#include "../quakedef.h"
 
-#include "snd_main.h"
-#include "snd_ogg.h"
-#include "snd_wav.h"
-#include "snd_modplug.h"
+#include "main.h"
+#include "ogg.h"
+#include "wav.h"
+#include "modplug.h"
 
 
 /*

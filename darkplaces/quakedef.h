@@ -371,11 +371,11 @@ extern char engineversion[128];
 #include "common.h"
 #include "cvar.h"
 #include "bspfile.h"
-#include "sys.h"
+#include "sys/sys.h"
 #include "vid.h"
 #include "mathlib.h"
 
-#include "r_textures.h"
+#include "r/textures.h"
 
 #include "crypto.h"
 #include "draw.h"
@@ -385,7 +385,7 @@ extern char engineversion[128];
 #include "cmd.h"
 #include "sbar.h"
 #include "sound.h"
-#include "model_shared.h"
+#include "model/shared.h"
 #include "world.h"
 #include "client.h"
 #include "render.h"

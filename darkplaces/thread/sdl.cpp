@@ -1,4 +1,4 @@
-#include "quakedef.h"
+#include "../quakedef.h"
 #include "thread.h"
 #include <SDL.h>
 #include <SDL_thread.h>

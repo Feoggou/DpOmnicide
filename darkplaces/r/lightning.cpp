@@ -1,6 +1,6 @@
 
-#include "quakedef.h"
-#include "image.h"
+#include "../quakedef.h"
+#include "../image.h"
 
 cvar_t r_lightningbeam_thickness = {CVAR_SAVE, "r_lightningbeam_thickness", "4", "thickness of the lightning beam effect"};
 cvar_t r_lightningbeam_scroll = {CVAR_SAVE, "r_lightningbeam_scroll", "5", "speed of texture scrolling on the lightning beam effect"};

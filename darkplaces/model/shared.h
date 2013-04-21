@@ -718,9 +718,9 @@ msurface_t;
 #include "matrixlib.h"
 #include "bih.h"
 
-#include "model_brush.h"
-#include "model_sprite.h"
-#include "model_alias.h"
+#include "model/brush.h"
+#include "model/sprite.h"
+#include "model/alias.h"
 
 typedef struct model_sprite_s
 {

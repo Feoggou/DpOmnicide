@@ -18,15 +18,15 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 
 */
 
-#include "quakedef.h"
-#include "image.h"
-#include "wad.h"
+#include "../quakedef.h"
+#include "../image.h"
+#include "../wad.h"
 
-#include "cl_video.h"
-#include "cl_dyntexture.h"
+#include "../cl/video.h"
+#include "../cl/dyntexture.h"
 
-#include "ft2.h"
-#include "ft2_fontdefs.h"
+#include "../ft2.h"
+#include "../ft2_fontdefs.h"
 
 dp_fonts_t dp_fonts;
 static mempool_t *fonts_mempool = NULL;
@@ -59,7 +59,7 @@ rtexturepool_t *drawtexturepool;
 
 static const unsigned char concharimage[FONT_FILESIZE] =
 {
-#include "lhfont.h"
+#include "../lhfont.h"
 };
 
 static rtexture_t *draw_generateconchars(void)

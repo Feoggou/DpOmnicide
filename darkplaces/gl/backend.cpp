@@ -1,7 +1,7 @@
 
-#include "quakedef.h"
-#include "cl_collision.h"
-#include "dpsoftrast.h"
+#include "../quakedef.h"
+#include "../cl/collision.h"
+#include "../dpsoftrast.h"
 #ifdef SUPPORTD3D
 #include <d3d9.h>
 extern LPDIRECT3DDEVICE9 vid_d3d9dev;

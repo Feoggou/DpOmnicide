@@ -25,7 +25,7 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #include <time.h>
 
 #include "quakedef.h"
-#include "thread.h"
+#include "thread/thread.h"
 
 // for u8_encodech
 #include "ft2.h"

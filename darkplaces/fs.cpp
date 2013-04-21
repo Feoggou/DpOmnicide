@@ -46,7 +46,7 @@
 #endif
 
 #include "quakedef.h"
-#include "thread.h"
+#include "thread/thread.h"
 
 #include "fs.h"
 #include "wad.h"

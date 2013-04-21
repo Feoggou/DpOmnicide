@@ -22,9 +22,9 @@
 */
 
 
-#include "quakedef.h"
-#include "snd_main.h"
-#include "snd_modplug.h"
+#include "../quakedef.h"
+#include "main.h"
+#include "modplug.h"
 
 #ifdef SND_MODPLUG_STATIC
 

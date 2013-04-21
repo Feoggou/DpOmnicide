@@ -162,7 +162,7 @@ void R_DrawExplosions(void);
 int R_CullBox(const vec3_t mins, const vec3_t maxs);
 int R_CullBoxCustomPlanes(const vec3_t mins, const vec3_t maxs, int numplanes, const mplane_t *planes);
 
-#include "r_modules.h"
+#include "r/modules.h"
 
 #include "meshqueue.h"
 
@@ -207,7 +207,7 @@ qboolean R_AnimCache_GetEntity(entity_render_t *ent, qboolean wantnormals, qbool
 /// generate animcache data for all entities marked visible
 void R_AnimCache_CacheVisibleEntities(void);
 
-#include "r_lerpanim.h"
+#include "r/lerpanim.h"
 
 extern cvar_t r_render;
 extern cvar_t r_renderview;
@@ -231,7 +231,7 @@ extern cvar_t r_smoothnormals_areaweighting;
 
 extern cvar_t r_test;
 
-#include "gl_backend.h"
+#include "gl/backend.h"
 
 extern rtexture_t *r_texture_blanknormalmap;
 extern rtexture_t *r_texture_white;

@@ -1,17 +1,17 @@
 
-#include "quakedef.h"
-#include "cl_video.h"
-#include "image.h"
-#include "jpeg.h"
-#include "image_png.h"
-#include "cl_collision.h"
-#include "libcurl.h"
-#include "csprogs.h"
-#include "cap_avi.h"
-#include "cap_ogg.h"
+#include "../quakedef.h"
+#include "video.h"
+#include "../image.h"
+#include "../jpeg.h"
+#include "../image_png.h"
+#include "collision.h"
+#include "../libcurl.h"
+#include "../csprogs.h"
+#include "../cap/avi.h"
+#include "../cap/ogg.h"
 
 // we have to include snd_main.h here only to get access to snd_renderbuffer->format.speed when writing the AVI headers
-#include "snd_main.h"
+#include "../snd/main.h"
 
 cvar_t scr_viewsize = {CVAR_SAVE, "viewsize","100", "how large the view should be, 110 disables inventory bar, 120 disables status bar"};
 cvar_t scr_fov = {CVAR_SAVE, "fov","90", "field of vision, 1-170 degrees, default 90, some players use 110-130"};

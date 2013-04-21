@@ -18,11 +18,11 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 
 */
 
-#include "quakedef.h"
+#include "../quakedef.h"
 
-#include "cl_collision.h"
-#include "image.h"
-#include "r_shadow.h"
+#include "collision.h"
+#include "../image.h"
+#include "../r/shadow.h"
 
 // must match ptype_t values
 particletype_t particletype[pt_total] =

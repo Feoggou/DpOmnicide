@@ -21,7 +21,7 @@
 */
 
 #include "quakedef.h"
-#include "cl_video.h"
+#include "cl/video.h"
 #include "utf8lib.h"
 #include "csprogs.h"
 

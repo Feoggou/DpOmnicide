@@ -18,8 +18,8 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 
 */
 
-#include "quakedef.h"
-#include "progsvm.h"
+#include "../quakedef.h"
+#include "../progsvm.h"
 
 const char *prvm_opnames[] =
 {
@@ -718,12 +718,12 @@ chooseexecprogram:
 		if (prvm_timeprofiling.integer)
 		{
 #define PRVMTIMEPROFILING 1
-#include "prvm_execprogram.h"
+#include "execprogram.h"
 #undef PRVMTIMEPROFILING
 		}
 		else
 		{
-#include "prvm_execprogram.h"
+#include "execprogram.h"
 		}
 #undef PRVMSLOWINTERPRETER
 	}
@@ -732,12 +732,12 @@ chooseexecprogram:
 		if (prvm_timeprofiling.integer)
 		{
 #define PRVMTIMEPROFILING 1
-#include "prvm_execprogram.h"
+#include "execprogram.h"
 #undef PRVMTIMEPROFILING
 		}
 		else
 		{
-#include "prvm_execprogram.h"
+#include "execprogram.h"
 		}
 	}
 
@@ -810,12 +810,12 @@ chooseexecprogram:
 		if (prvm_timeprofiling.integer)
 		{
 #define PRVMTIMEPROFILING 1
-#include "prvm_execprogram.h"
+#include "execprogram.h"
 #undef PRVMTIMEPROFILING
 		}
 		else
 		{
-#include "prvm_execprogram.h"
+#include "execprogram.h"
 		}
 #undef PRVMSLOWINTERPRETER
 	}
@@ -824,12 +824,12 @@ chooseexecprogram:
 		if (prvm_timeprofiling.integer)
 		{
 #define PRVMTIMEPROFILING 1
-#include "prvm_execprogram.h"
+#include "execprogram.h"
 #undef PRVMTIMEPROFILING
 		}
 		else
 		{
-#include "prvm_execprogram.h"
+#include "execprogram.h"
 		}
 	}
 
@@ -907,12 +907,12 @@ chooseexecprogram:
 		if (prvm_timeprofiling.integer)
 		{
 #define PRVMTIMEPROFILING 1
-#include "prvm_execprogram.h"
+#include "execprogram.h"
 #undef PRVMTIMEPROFILING
 		}
 		else
 		{
-#include "prvm_execprogram.h"
+#include "execprogram.h"
 		}
 #undef PRVMSLOWINTERPRETER
 	}
@@ -921,12 +921,12 @@ chooseexecprogram:
 		if (prvm_timeprofiling.integer)
 		{
 #define PRVMTIMEPROFILING 1
-#include "prvm_execprogram.h"
+#include "execprogram.h"
 #undef PRVMTIMEPROFILING
 		}
 		else
 		{
-#include "prvm_execprogram.h"
+#include "execprogram.h"
 		}
 	}
 

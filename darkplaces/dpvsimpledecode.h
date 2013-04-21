@@ -2,7 +2,7 @@
 #ifndef DPVSIMPLEDECODE_H
 #define DPVSIMPLEDECODE_H
 
-#include "cl_video.h"
+#include "cl/video.h"
 
 #define DPVSIMPLEDECODEERROR_NONE 0
 #define DPVSIMPLEDECODEERROR_EOF 1

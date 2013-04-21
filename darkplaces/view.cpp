@@ -20,7 +20,7 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 // view.c -- player eye positioning
 
 #include "quakedef.h"
-#include "cl_collision.h"
+#include "cl/collision.h"
 #include "image.h"
 
 /*
@@ -371,7 +371,7 @@ static void V_BonusFlash_f (void)
 extern matrix4x4_t viewmodelmatrix_nobob;
 extern matrix4x4_t viewmodelmatrix_withbob;
 
-#include "cl_collision.h"
+#include "cl/collision.h"
 #include "csprogs.h"
 
 /*

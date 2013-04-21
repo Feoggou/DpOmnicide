@@ -1,6 +1,6 @@
 
-#include "quakedef.h"
-#include "cl_collision.h"
+#include "../quakedef.h"
+#include "collision.h"
 
 #ifdef COLLISION_STUPID_TRACE_ENDPOS_IN_SOLID_WORKAROUND
 float CL_SelectTraceLine(const vec3_t start, const vec3_t pEnd, vec3_t impact, vec3_t normal, int *hitent, entity_render_t *ignoreent)

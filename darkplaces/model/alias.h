@@ -224,13 +224,13 @@ typedef struct aliasbone_s
 }
 aliasbone_t;
 
-#include "model_zymotic.h"
+#include "model/zymotic.h"
 
-#include "model_dpmodel.h"
+#include "model/dpmodel.h"
 
-#include "model_psk.h"
+#include "model/psk.h"
 
-#include "model_iqm.h"
+#include "model/iqm.h"
 
 // for decoding md3 model latlong vertex normals
 extern float mod_md3_sin[320];
